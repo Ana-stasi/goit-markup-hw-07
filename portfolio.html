@@ -13,11 +13,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header  -->
-    <header class="header">
+   <header class="header">
       <div class="container header-container">
         <nav class="header__nav">
           <a href="./index.html" class="logo"
@@ -25,32 +25,32 @@
           >
           <ul class="site-nav list">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link">Студія</a>
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link--current"
+                >Студія</a
+              >
             </li>
             <li class="site-nav__item">
-              <a
-                href="./portfolio.html"
-                class="site-nav__link site-nav__link--current"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
             <li class="site-nav__item">
               <a href="" class="site-nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-nav list">
-          <li class="contact-nav__item">
-            <a href="mailto:info@devstudio.com" class="contact-nav__link">
-              <svg class="contact-nav__icon" width="16px" height="12px">
+        <ul class="contacts header__contacts list">
+          <li class="contacts__item contacts__item--header">
+            <a href="mailto:info@devstudio.com" class="contacts__link contacts__link--header">
+              <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contact-nav__item">
-            <a href="tel:+380961111111" class="contact-nav__link">
-              <svg class="contact-nav__icon" width="10px" height="16px">
+          <li class="contacts__item contacts__item--header">
+            <a href="tel:+380961111111" class="contacts__link contacts__link--header">
+              <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -273,7 +273,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <div class="footer-nav">
@@ -283,13 +283,13 @@
             <address>
               <p class="footer-nav__address">м. Київ, пр-т Лесі Українки, 26</p>
               <ul class="contacts list">
-                <li class="contacts__item">
-                  <a href="mailto:info@example.com" class="contacts__link">
+                <li class="contacts__item contacts__item--footer">
+                  <a href="mailto:info@example.com" class="contacts__link contacts__link--footer">
                     info@example.com
                   </a>
                 </li>
-                <li class="contacts__item">
-                  <a href="tel:+380991111111" class="contacts__link">
+                <li class="contacts__item contacts__item--footer">
+                  <a href="tel:+380991111111" class="contacts__link contacts__link--footer">
                     +38 099 111 11 11
                   </a>
                 </li>
@@ -297,28 +297,28 @@
             </address>
           </div>
           <div class="footer__social-net-container">
-            <p class="footer__join">приєднуйтесь</p>
+            <p class="footer__join-text">приєднуйтесь</p>
             <ul class="social-net list">
               <li class="social-net__item">
-                <a href="" class="social-net__link social-net_link--color">
+                <a href="" class="social-net__link social-net__link--footer">
                   <svg class="social-net__icon">
                     <use href="./images/icons.svg#instagram"></use></svg
                 ></a>
               </li>
               <li class="social-net__item">
-                <a href="" class="social-net__link social-net_link--color"
+                <a href="" class="social-net__link social-net__link--footer"
                   ><svg class="social-net__icon">
                     <use href="./images/icons.svg#twitter"></use></svg
                 ></a>
               </li>
               <li class="social-net__item">
-                <a href="" class="social-net__link social-net_link--color"
+                <a href="" class="social-net__link social-net__link--footer"
                   ><svg class="social-net__icon">
                     <use href="./images/icons.svg#facebook"></use></svg
                 ></a>
               </li>
               <li class="social-net__item">
-                <a href="" class="social-net__link social-net_link--color"
+                <a href="" class="social-net__link social-net__link--footer"
                   ><svg class="social-net__icon">
                     <use href="./images/icons.svg#linkedin"></use></svg
                 ></a>
